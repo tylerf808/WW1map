@@ -10,38 +10,49 @@
 </head>
 
 <body>
-    <div class="map" id="map">
-        <div class="clickable-event" id="event1">
-            <div class="modal" id="text1">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
-                        <h2>First Battle of the Marne</h2>
-                    </div>
-                    <div class="modal-body">
-                        <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
-                            September 1914. It resulted in an Allied victory against the German armies in the west.
-                            The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
-                            armies which followed the Battle of the Frontiers in August and reached the eastern
-                            outskirts of Paris.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+    <div class="map-container" id="map-container">
+        <div class="map" id="map-image">
+            <div class="clickable-event" id="event1">
+                <div class="modal" id="text1">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
+                            <h2>First Battle of the Marne
+                        </div>
+                        <div class="modal-body">
+                            <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
+                                September 1914. It resulted in an Allied victory against the German armies in the west.
+                                The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
+                                armies which followed the Battle of the Frontiers in August and reached the eastern
+                                outskirts of Paris.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+                        </div>
                     </div>
                 </div>
+                <button class="eventbtn" id="btn1"></button>
             </div>
-            <button class="eventbtn" id="btn1"></button>
         </div>
+        
     </div>
-    <div class="footer" id="footer">
-        <ul id="timeline">
-            <li id="14">1914</li>
-            <li id="15">1915</li>
-            <li id="16">1916</li>
-            <li id="17">1917</li>
-            <li id="18">1918</li>
-        </ul>
+        <div class="timeline">
+            <div class="year make-it-fast" id="14">
+                <h3>1914</h3>
+            </div>
+            <div class="year make-it-fast" id="15">
+                <h3>1915</h3>
+            </div>
+            <div class="year make-it-fast" id="16">
+                <h3>1916</h3>
+            </div>
+            <div class="year make-it-fast" id="17">
+                <h3>1917</h3>
+            </div>
+            <div class="year make-it-fast" id="18">
+                <h3>1918</h3>
+            </div>
     </div>
 
 </body>
