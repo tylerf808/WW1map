@@ -1,5 +1,9 @@
 // Get the modal
-var modal = document.getElementById("text1");
+var modal1 = document.getElementById("text1");
+var modal2 = document.getElementById("text2");
+var modal3 = document.getElementById("text3");
+var modal4 = document.getElementById("text4");
+var modal5 = document.getElementById("text5");
 
 // Get the button that opens the modal
 var btn1 = document.getElementById("btn1");
@@ -20,18 +24,16 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn1.onclick = function () {
-    modal.style.display = "block";
+    modal1.style.display = "block";
 }
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
+btn2.onclick = function () {
+    modal2.style.display = "block";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5) {
+        event.target.style.display = "none";
     }
 }
 

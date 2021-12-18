@@ -50,6 +50,12 @@ body {
   left: 730px
 }
 
+#btn2 {
+  position: relative;
+  top: 110px;
+  left: 670px;
+}
+
 .modal {
   display: none;
   /* Hidden by default */
