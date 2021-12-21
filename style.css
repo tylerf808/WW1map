@@ -8,11 +8,6 @@
   background-image: url(./images/1248px-France_location_map-Regions_and_departements-2016.svg.png);
 }
 
-
-.footer {
-  position: absolute;
-}
-
 .timeline {
   display: flex;
   flex-direction: row;
@@ -21,7 +16,6 @@
 
 .year {
   flex-grow: 1;
-
 }
 
 h3 {
@@ -42,14 +36,41 @@ body {
 
 #btn1 {
   position: relative;
-  top: 280px;
-  left: 730px
+  top: 35%;
+  left: 32%;
 }
 
 #btn2 {
   position: relative;
-  top: 110px;
-  left: 670px;
+  top: 12%;
+  left: 26%;
+}
+
+#btn3 {
+  position: relative;
+  top: 21%;
+  left: 25%;
+}
+
+#btn4 {
+  position: relative;
+  top: 18%;
+  left: 31%;
+}
+
+#btn5 {
+  position: relative;
+  top: 34%;
+  left: 36%;
+}
+
+.battlepic {
+  display: block;
+  height: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .modal {
@@ -78,7 +99,7 @@ body {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #fefefec2;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -132,17 +153,19 @@ body {
   color: white;
 }
 
-#battleofmarneimg {
-  height: 100px;
-  width: 100px;
-}
-
 @media screen and (max-width: 768px) {
   .map-container {
     height: 30vh;
     margin: 0;
     margin: auto;
     width: 30vh;
-
+  }
+  .eventbtn {
+    border-radius: 50%;
+    height: 1px;
+    width: 1px;
+  }
+  .battlepic {
+    height: 150px;
   }
 }

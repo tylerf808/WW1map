@@ -29,6 +29,15 @@ btn1.onclick = function () {
 btn2.onclick = function () {
     modal2.style.display = "block";
 }
+btn3.onclick = function () {
+    modal3.style.display = "block";
+}
+btn4.onclick = function () {
+    modal4.style.display = "block";
+}
+btn5.onclick = function () {
+    modal5.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
