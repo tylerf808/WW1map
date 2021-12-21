@@ -64,6 +64,13 @@ body {
   left: 36%;
 }
 
+#dragable-timeline {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
 .battlepic {
   display: block;
   height: 300px;

@@ -19,6 +19,52 @@ const btn16 = document.getElementById("16");
 const btn17 = document.getElementById("17");
 const btn18 = document.getElementById("18");
 
+//Get timeline
+const timeline = document.getElementById("dragable-timeline");
+
+//When user changes value on slider change visible event buttons
+timeline.addEventListener("input", (event) => {
+    switch (timeline.value) {
+        case "1":
+            btn1.hidden = false;
+            btn2.hidden = true;
+            btn3.hidden = true;
+            btn4.hidden = true;
+            btn5.hidden = true;
+            break;
+        case "2":
+            btn1.hidden = true;
+            btn2.hidden = false;
+            btn3.hidden = true;
+            btn4.hidden = true;
+            btn5.hidden = true;
+            break;
+        case "3":
+            btn1.hidden = true;
+            btn2.hidden = true;
+            btn3.hidden = false;
+            btn4.hidden = true;
+            btn5.hidden = true;
+            break;
+        case "4":
+            btn1.hidden = true;
+            btn2.hidden = true;
+            btn3.hidden = true;
+            btn4.hidden = false;
+            btn5.hidden = true;
+            break;
+        case "5":
+            btn1.hidden = true;
+            btn2.hidden = true;
+            btn3.hidden = true;
+            btn4.hidden = true;
+            btn5.hidden = false;
+            break;
+        default:
+            break;
+    }
+})
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
