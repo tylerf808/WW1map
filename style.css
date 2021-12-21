@@ -1,5 +1,6 @@
 .map-container {
   height: 90vh;
+  margin: auto;
   width: 90vh;
   padding: 10px;
   background-repeat: no-repeat;
