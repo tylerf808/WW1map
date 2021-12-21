@@ -11,23 +11,25 @@
 
 <body>
     <div class="map-container" id="map-container">
-        <div class="map" id="map-image">
             <div class="clickable-event" id="event1">
                 <div class="modal" id="text1">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
-                            <h2>First Battle of the Marne
+                            <img id="battleofmarneimg"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
+                            <h2>First Battle of the Marne</h2>
                         </div>
                         <div class="modal-body">
                             <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
                                 September 1914. It resulted in an Allied victory against the German armies in the west.
-                                The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
+                                The battle was the culmination of the Retreat from Mons and pursuit of the
+                                Franco-British
                                 armies which followed the Battle of the Frontiers in August and reached the eastern
                                 outskirts of Paris.</p>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne"
+                                target="_blank">Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -37,11 +39,18 @@
                 <div class="modal" id="text2">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <img id="battleofloosimg" src="data:image/jpeg;base64,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">
+                            <img id="battleofloosimg"
+                                src="data:image/jpeg;base64,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">
                             <h2>Battle of Loos</h2>
                         </div>
                         <div class="modal-body">
-                            <p>The Battle of Loos took place from 25 September to 8 October 1915 in France on the Western Front, during the First World War. It was the biggest British attack of 1915, the first time that the British used poison gas and the first mass engagement of New Army units. The French and British tried to break through the German defences in Artois and Champagne and restore a war of movement. Despite improved methods, more ammunition and better equipment, the Franco-British attacks were largely contained by the Germans, except for local losses of ground.</p>
+                            <p>The Battle of Loos took place from 25 September to 8 October 1915 in France on the
+                                Western Front, during the First World War. It was the biggest British attack of 1915,
+                                the first time that the British used poison gas and the first mass engagement of New
+                                Army units. The French and British tried to break through the German defences in Artois
+                                and Champagne and restore a war of movement. Despite improved methods, more ammunition
+                                and better equipment, the Franco-British attacks were largely contained by the Germans,
+                                except for local losses of ground.</p>
                         </div>
                         <div class="modal-footer">
                             <a href="https://en.wikipedia.org/wiki/Battle_of_Loos" target="_blank">Wikipedia</a>
@@ -54,18 +63,16 @@
                 <div class="modal" id="text3">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
-                            <h2>First Battle of the Marne
+                            <img id=""
+                                src="">
+                            <h2></h2>
                         </div>
                         <div class="modal-body">
-                            <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
-                                September 1914. It resulted in an Allied victory against the German armies in the west.
-                                The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
-                                armies which followed the Battle of the Frontiers in August and reached the eastern
-                                outskirts of Paris.</p>
+                            <p></p>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+                            <a href=""
+                                target="_blank">Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -75,18 +82,16 @@
                 <div class="modal" id="text4">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
-                            <h2>First Battle of the Marne
+                            <img id=""
+                                src="">
+                            <h2></h2>
                         </div>
                         <div class="modal-body">
-                            <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
-                                September 1914. It resulted in an Allied victory against the German armies in the west.
-                                The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
-                                armies which followed the Battle of the Frontiers in August and reached the eastern
-                                outskirts of Paris.</p>
+                            <p></p>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+                            <a href=""
+                                target="_blank">Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -96,32 +101,38 @@
                 <div class="modal" id="text5">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <img id="battleofmarne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/German_soldiers_Battle_of_Marne_WWI.jpg/375px-German_soldiers_Battle_of_Marne_WWI.jpg">
-                            <h2>First Battle of the Marne
+                            <img id=""
+                                src="">
+                            <h2></h2>
                         </div>
                         <div class="modal-body">
-                            <p>The First Battle of the Marne was a battle of the First World War fought from 6 to 12
-                                September 1914. It resulted in an Allied victory against the German armies in the west.
-                                The battle was the culmination of the Retreat from Mons and pursuit of the Franco-British
-                                armies which followed the Battle of the Frontiers in August and reached the eastern
-                                outskirts of Paris.</p>
+                            <p></p>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://en.wikipedia.org/wiki/First_Battle_of_the_Marne" target="_blank">Wikipedia</a>
+                            <a href=""
+                                target="_blank">Wikipedia</a>
                         </div>
                     </div>
                 </div>
                 <button class="eventbtn" id="btn5" hidden></button>
             </div>
-        </div>
-        
     </div>
     <div class="timeline">
-            <div class="year make-it-fast" id="14"><h3>1914</h3></div>
-            <div class="year make-it-fast" id="15"><h3>1915</h3></div>
-            <div class="year make-it-fast" id="16"><h3>1916</h3></div>
-            <div class="year make-it-fast" id="17"><h3>1917</h3></div>
-            <div class="year make-it-fast" id="18"><h3>1918</h3></div>
+        <div class="year" id="14">
+            <h3>1914</h3>
+        </div>
+        <div class="year" id="15">
+            <h3>1915</h3>
+        </div>
+        <div class="year" id="16">
+            <h3>1916</h3>
+        </div>
+        <div class="year" id="17">
+            <h3>1917</h3>
+        </div>
+        <div class="year" id="18">
+            <h3>1918</h3>
+        </div>
     </div>
 
 </body>
